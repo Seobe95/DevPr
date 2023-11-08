@@ -15,6 +15,7 @@
 		55B307272AFA6D0600CFBD59 /* SpotifyCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B307262AFA6D0600CFBD59 /* SpotifyCloneTests.swift */; };
 		55B307312AFA6D0600CFBD59 /* SpotifyCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B307302AFA6D0600CFBD59 /* SpotifyCloneUITests.swift */; };
 		55B307332AFA6D0600CFBD59 /* SpotifyCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B307322AFA6D0600CFBD59 /* SpotifyCloneUITestsLaunchTests.swift */; };
+		55B307412AFA6FED00CFBD59 /* MusicItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B307402AFA6FED00CFBD59 /* MusicItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		55B3072C2AFA6D0600CFBD59 /* SpotifyCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B307302AFA6D0600CFBD59 /* SpotifyCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyCloneUITests.swift; sourceTree = "<group>"; };
 		55B307322AFA6D0600CFBD59 /* SpotifyCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55B307402AFA6FED00CFBD59 /* MusicItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		55B307122AFA6D0500CFBD59 /* SpotifyClone */ = {
 			isa = PBXGroup;
 			children = (
+				55B3073F2AFA6FAA00CFBD59 /* MusicList */,
 				55B307132AFA6D0500CFBD59 /* SpotifyCloneApp.swift */,
 				55B307152AFA6D0500CFBD59 /* ContentView.swift */,
 				55B307172AFA6D0500CFBD59 /* Item.swift */,
@@ -128,6 +131,14 @@
 				55B307322AFA6D0600CFBD59 /* SpotifyCloneUITestsLaunchTests.swift */,
 			);
 			path = SpotifyCloneUITests;
+			sourceTree = "<group>";
+		};
+		55B3073F2AFA6FAA00CFBD59 /* MusicList */ = {
+			isa = PBXGroup;
+			children = (
+				55B307402AFA6FED00CFBD59 /* MusicItem.swift */,
+			);
+			path = MusicList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55B307162AFA6D0500CFBD59 /* ContentView.swift in Sources */,
+				55B307412AFA6FED00CFBD59 /* MusicItem.swift in Sources */,
 				55B307182AFA6D0500CFBD59 /* Item.swift in Sources */,
 				55B307142AFA6D0500CFBD59 /* SpotifyCloneApp.swift in Sources */,
 			);
